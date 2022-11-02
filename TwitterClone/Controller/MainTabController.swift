@@ -22,7 +22,6 @@ class MainTabController: UITabBarController {
     // MARK: Selectors
     
     @objc func actionButtonTapped(){
-        print("123")
     }
     // MARK: Lifecyles
 
@@ -65,8 +64,8 @@ class MainTabController: UITabBarController {
         
         let nav = UINavigationController(rootViewController: rootViewController)
         nav.tabBarItem.image  = image
-        nav.navigationBar.barTintColor = .white
-        self.navigationController?.navigationBar.tintColor = .white
+        //nav.navigationBar.barTintColor = .white
+        //self.navigationController?.navigationBar.tintColor = .white
         
         //nav.view.backgroundColor = .white
        // nav.navigationBar.backgroundColor = .white
